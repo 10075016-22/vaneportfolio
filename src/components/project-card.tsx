@@ -36,7 +36,6 @@ export function ProjectCard({
   tags,
   link,
   image,
-  video,
   links,
   className,
 }: Props) {

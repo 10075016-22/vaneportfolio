@@ -74,12 +74,12 @@ export const DATA = {
     {
       title: "SISTEMA DE GESTION DE LA SEGURIDAD Y SALUD EN EL TRABAJO SG-SST",
       href: "",
-      dates: "June 2023 - Present",
+      dates: "Octubre 2021",
       active: true,
       description: "Desarrollar las actividades básicas establecidas en el sistema general de seguridad y salud en el trabajo (SGSST) según delegación y lineamientos establecidos.",
       technologies: [
         "SENA",
-        "SG-SSt"
+        "SG-SST"
       ],
       links: [
         {
@@ -88,7 +88,44 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
+      image: "/education/sena.jpg",
+      video: "",
+    },
+    {
+      title: "MANEJO BASICO DE LA HERRAMIENTA DE HOJAS DE CALCULO EXCEL",
+      href: "",
+      dates: "Diciembre 2021",
+      active: true,
+      description: "Utilizar herramientas informáticas de acuerdo con las necesidades de manejo de información",
+      technologies: [
+        "SENA",
+        "EXCEL"
+      ],
+      links: [
+        {
+          type: "Ver más",
+          href: "/documents/9542002464998CC1003451912C.pdf",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/education/sena.jpg",
+      video: "",
+    },
+    {
+      title: "DIPLOMADO SISTEMAS INTEGRADOS DE GESTIÓN",
+      href: "",
+      dates: "",
+      active: true,
+      description: "",
+      technologies: [ "Unicordoba" ],
+      links: [
+        {
+          type: "Ver más",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/education/unicordoba.png",
       video: "",
     }
   ],
