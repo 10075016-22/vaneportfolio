@@ -152,8 +152,8 @@ export default function Page() {
               Contáctame
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              ¿Quieres charlar? Envíame un dm{" "}
-                <Link href={DATA.contact.social.whatsapp.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline" >
+              ¿Quieres charlar? Envíame un dm {" "}
+                <Link href={DATA.contact.social.whatsapp.url} target="_blank" className="text-blue-500 hover:underline" >
                   Aquí
                 </Link>{" "}
                 y responderé siempre que pueda. Ignoraré todas las solicitudes.

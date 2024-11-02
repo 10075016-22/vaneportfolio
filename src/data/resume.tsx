@@ -6,7 +6,7 @@ export const DATA = {
   initials: "DV",
   url: "https://dillion.io",
   location: "Montería, Córdoba, Colombia",
-  description: "Soy una profesional altamente colaborativa, apasionada por la innovación y con una sólida capacidad de comunicación. Mi experiencia en el ámbito tecnológico me ha permitido adquirir habilidades prácticas y construir una base sólida en el campo. Me destaco por mi adaptabilidad a diversos entornos y situaciones, lo que me permite enfrentar desafíos con confianza. Estoy comprometida con el aprendizaje continuo y la mejora personal, buscando siempre oportunidades para crecer y contribuir de manera significativa a los proyectos en los que participo.",
+  description: "Soy una profesional **altamente colaborativa**, apasionada por la innovación y con una sólida capacidad de comunicación. Mi experiencia en el ámbito tecnológico me ha permitido adquirir habilidades prácticas y construir una base sólida en el campo. Me destaco por mi adaptabilidad a diversos entornos y situaciones, lo que me permite enfrentar desafíos con confianza. Estoy comprometida con el aprendizaje continuo y la mejora personal, buscando siempre oportunidades para crecer y contribuir de manera significativa a los proyectos en los que participo.",
   summary: "Ingenieria industrial",
   avatarUrl: "/profile/profile.jpeg",
   skills: [
@@ -21,7 +21,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "ortega19vanessa@gmail.com",
@@ -67,8 +66,8 @@ export const DATA = {
       href: "https://www.unicordoba.edu.co",
       degree: "Ingeniería industrial",
       logoUrl: "/education/unicordoba.png",
-      start: "2017",
-      end: "2024",
+      start: "Feb. 2017",
+      end: "Oct. 2024",
     }
   ],
   projects: [
@@ -84,76 +83,14 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "Ver más",
           href: "/documents/9115002417489CC1003451912C.pdf",
           icon: <Icons.globe className="size-3" />,
         }
       ],
       image: "",
       video: "",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+    }
   ],
   hackathons: [],
 } as const;
