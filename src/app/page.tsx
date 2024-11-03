@@ -156,7 +156,7 @@ export default function Page() {
                 <Link href={DATA.contact.social.whatsapp.url} target="_blank" className="text-blue-500 hover:underline" >
                   Aquí
                 </Link>{" "}
-                y responderé siempre que pueda. Ignoraré todas las solicitudes.
+                y responderé siempre que pueda.
               </p>
             </div>
           </BlurFade>
